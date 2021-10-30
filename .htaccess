@@ -1,0 +1,8 @@
+# BLOQUEAR ACESSO A UM ARQUIVO EM .HTACCESS #
+# BLOCKING ACCESS TO A .HTACCESS FILE #
+
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>
